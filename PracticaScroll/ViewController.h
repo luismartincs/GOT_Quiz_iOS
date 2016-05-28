@@ -7,9 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GoTCell.h"
+#import "CellObserver.h"
+#import "Congrats.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource,CellObserver>
 
+
+@property (strong, nonatomic) IBOutlet UITableView *gameTable;
+@property (nonatomic,strong) NSArray *characters;
+@property (nonatomic,strong) NSMutableArray *answers;
+
+@property(nonatomic) NSInteger correct;
+@property(nonatomic) NSInteger tries;
+
+- (IBAction)next:(id)sender;
+
+- (void)restart;
 
 @end
 

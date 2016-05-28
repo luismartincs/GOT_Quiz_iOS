@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>daenerys.jpg</string>
+		<false/>
+		<string>Daenerys Targaryen</string>
+		<integer>0</integer>
+	</array>
+	<array>
+		<string>jonsnow.jpg</string>
+		<false/>
+		<string>Jon Snow</string>
+		<integer>0</integer>
+	</array>
+	<array>
+		<string>ramsay.jpg</string>
+		<false/>
+		<string>Ramsay Bolton</string>
+		<integer>0</integer>
+	</array>
+	<array>
+		<string>sansa.jpg</string>
+		<false/>
+		<string>Sansa Stark</string>
+		<integer>0</integer>
+	</array>
+	<array>
+		<string>margaery.png</string>
+		<false/>
+		<string>Margaery Tyrell</string>
+		<integer>0</integer>
+	</array>
+	<array>
+		<string>olly.jpg</string>
+		<true/>
+		<string>Olly</string>
+		<integer>0</integer>
+	</array>
+	<array>
+		<string>osha.jpg</string>
+		<true/>
+		<string>Osha</string>
+		<integer>0</integer>
+	</array>
+	<array>
+		<string>joffrey.png</string>
+		<true/>
+		<string>Joffrey Baratheon</string>
+		<integer>0</integer>
+	</array>
+	<array>
+		<string>eddard.jpg</string>
+		<true/>
+		<string>Eddard Stark
+Eddard Stark
+</string>
+		<integer>0</integer>
+	</array>
+	<array>
+		<string>drogo.jpg</string>
+		<true/>
+		<string>Drogo</string>
+		<integer>0</integer>
+	</array>
+</array>
+</plist>
