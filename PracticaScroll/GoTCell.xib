@@ -14,34 +14,38 @@
                 <rect key="frame" x="0.0" y="0.0" width="309" height="119"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="7z9-6A-31V">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="119"/>
+                    </imageView>
                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avs-7h-rsF">
-                        <rect key="frame" x="121" y="45" width="31" height="30"/>
-                        <state key="normal" title="LIVE">
-                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <rect key="frame" x="110" y="40" width="60" height="40"/>
+                        <state key="normal" title="LIVE" backgroundImage="botonlive1.png">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </state>
-                        <state key="highlighted">
-                            <color key="titleColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        </state>
+                        <state key="selected" backgroundImage="botonlive2.png"/>
+                        <state key="highlighted" backgroundImage="botonlive2.png"/>
                         <connections>
                             <action selector="liveButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="swU-6X-IuG"/>
-                        </connections>
-                    </button>
-                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s9i-sa-Kqw">
-                        <rect key="frame" x="171" y="45" width="40" height="30"/>
-                        <state key="normal" title="DEAD"/>
-                        <state key="highlighted">
-                            <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        </state>
-                        <connections>
-                            <action selector="deadButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="6qy-T9-V1e"/>
                         </connections>
                     </button>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.png" translatesAutoresizingMaskIntoConstraints="NO" id="0oP-Pn-FJZ">
                         <rect key="frame" x="8" y="15" width="80" height="90"/>
                     </imageView>
                     <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ok.png" translatesAutoresizingMaskIntoConstraints="NO" id="LwQ-8B-S3M">
-                        <rect key="frame" x="242" y="35" width="50" height="50"/>
+                        <rect key="frame" x="254" y="40" width="40" height="40"/>
                     </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s9i-sa-Kqw">
+                        <rect key="frame" x="186" y="40" width="60" height="40"/>
+                        <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                        <state key="normal" title="DEAD" backgroundImage="botondead1.png">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" backgroundImage="botondead2.png"/>
+                        <state key="highlighted" backgroundImage="botondead2.png"/>
+                        <connections>
+                            <action selector="deadButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="6qy-T9-V1e"/>
+                        </connections>
+                    </button>
                 </subviews>
             </tableViewCellContentView>
             <connections>
@@ -52,6 +56,11 @@
         </tableViewCell>
     </objects>
     <resources>
+        <image name="background_cell.png" width="480" height="200"/>
+        <image name="botondead1.png" width="200" height="60"/>
+        <image name="botondead2.png" width="200" height="60"/>
+        <image name="botonlive1.png" width="200" height="60"/>
+        <image name="botonlive2.png" width="200" height="60"/>
         <image name="ok.png" width="256" height="256"/>
         <image name="person.png" width="512" height="512"/>
     </resources>

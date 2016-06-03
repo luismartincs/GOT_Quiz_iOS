@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PracticaScroll.xcodeproj">
+      location = "self:/Users/Luis/Documents/Maestria/6C/Movil/PracticaScroll/PracticaScroll.xcodeproj">
    </FileRef>
 </Workspace>

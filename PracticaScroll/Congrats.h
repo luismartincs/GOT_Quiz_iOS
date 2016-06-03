@@ -19,6 +19,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *result;
 
 @property(nonatomic) NSInteger correct;
+@property (strong, nonatomic) IBOutlet UIImageView *emoji;
 
 - (IBAction)tryAgain:(id)sender;
 

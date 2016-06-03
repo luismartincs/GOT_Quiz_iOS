@@ -20,12 +20,15 @@
     if(_correct == 10){
         [_messages setText:@"CONGRATULATIONS!"];
         [_result setText:@"YOU ARE A GAME OF THRONES MASTER"];
+        [_emoji setImage:[UIImage imageNamed:@"perfect.png"]];
     }else if(_correct>=5 && _correct < 10){
         [_messages setText:@"NICE TRY!"];
         [_result setText:@"YOU NEED TO WATCH MORE GAME OF THRONES"];
+        [_emoji setImage:[UIImage imageNamed:@"good.png"]];
     }else{
         [_messages setText:@"OHH NO!"];
         [_result setText:@"YOU ARE A LOOSER!"];
+        [_emoji setImage:[UIImage imageNamed:@"bad.png"]];
     }
 }
 
